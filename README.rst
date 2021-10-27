@@ -1,3 +1,12 @@
+Installation
+------------
+
+Install using pip:
+
+.. code-block:: sh
+
+    pip install git+ssh://git@github.com/b93de3d/dynamic-rest.git
+
 Dynamic REST
 ============
 
