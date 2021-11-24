@@ -409,7 +409,7 @@ class WithDynamicViewSetMixin(object):
         return None
 
 
-class DynamicModelViewSet(WithDynamicViewSetMixin, viewsets.Create):
+class DynamicModelViewSet(WithDynamicViewSetMixin, viewsets.ModelViewSet):
 
     ENABLE_BULK_PARTIAL_CREATION = settings.ENABLE_BULK_PARTIAL_CREATION
     ENABLE_BULK_UPDATE = settings.ENABLE_BULK_UPDATE
